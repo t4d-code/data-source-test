@@ -2,19 +2,19 @@
 
 ## Install and Configure Neo4J Database
 
-- Install desktop
-- Create a graph database named 'northwind'
-- Start the graph database
-- Click the `Manage` button and select the `Details` tab
-- Towards the button click on the copy button next to `HTTP Port`, paste the link in a web browser
-- Login
+- Download and install Neo4J Desktop: [https://neo4j.com/download/](https://neo4j.com/download/)
+- Start the Neo4J Desktop
+- Under the default project or a new project, create a graph database named 'Northwind'
+- Start the Northwind graph database
+- Click the `Manage` button of the Northwind graph database and select the `Details` tab
+- Towards the bottom of the details, click the copy button next to `HTTP Port`, paste the link in a web browser
+- Log into the database using a username of `neo4j` and the password you specified when creating the database
 - Run the command: `:play start`
 - Setup the Northwind Database
 
 ## Install and Configure PostgreSQL Database
 
-- Install Homebrew
-- Install PostgreSQL with Homebrew
+- Download and install PostgreSQL: [https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 
 - Download the Northwind SQL file: [https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/northwindextended/northwind.postgre.sql](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/northwindextended/northwind.postgre.sql)
 - Run the command: `createdb northwind`
 - Run the command: `psql -d northwind -f ~/Downloads/northwind.postgre.sql`
